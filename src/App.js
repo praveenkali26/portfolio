@@ -1,25 +1,25 @@
+import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="https://www.hirextra.com/img/home-slider.gif" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Portfolio Under Development
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
-          href="https://github.com/praveenkali26"
+          href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          GitHub link 
+          Learn React
         </a>
       </header>
     </div>
   );
 }
-
 
 export default App;
